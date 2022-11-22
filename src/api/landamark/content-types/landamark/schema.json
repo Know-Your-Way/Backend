@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "landamarks",
+  "info": {
+    "singularName": "landamark",
+    "pluralName": "landamarks",
+    "displayName": "Landamark"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    }
+  }
+}
