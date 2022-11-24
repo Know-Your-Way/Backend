@@ -4,7 +4,8 @@
   "info": {
     "singularName": "location",
     "pluralName": "locations",
-    "displayName": "location"
+    "displayName": "location",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -26,11 +27,8 @@
     "address": {
       "type": "string"
     },
-    "categories": {
-      "type": "relation",
-      "relation": "manyToMany",
-      "target": "api::category.category",
-      "inversedBy": "locations"
+    "category": {
+      "type": "string"
     }
   }
 }
