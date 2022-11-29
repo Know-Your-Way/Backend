@@ -4,7 +4,8 @@
   "info": {
     "singularName": "landmark",
     "pluralName": "landmarks",
-    "displayName": "landmark"
+    "displayName": "landmark",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -14,17 +15,19 @@
     "Title": {
       "type": "string"
     },
-    "Coordinates": {
-      "type": "string"
-    },
     "Description": {
       "type": "richtext"
     },
-    "Phone": {
-      "type": "integer"
-    },
-    "Website": {
-      "type": "string"
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
     }
   }
 }
